@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp"
+    android:background="#FFF"
+    tools:context="com.example.arqdsis.chamadoapp.NovoChamadoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo Chamado"
+        android:layout_marginTop="10dp"
+       android:layout_marginBottom="20dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fila:"/>
+
+    <Spinner android:id="@+id/SpinnerFilas"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="-20dp"
+    >
+    </Spinner>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assunto:"/>
+
+    <EditText
+        android:id="@+id/txt_assunto"
+        android:layout_width="330dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/txt_descricao"
+        android:inputType="textMultiLine"
+        android:minLines="2"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criar Chamado"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
